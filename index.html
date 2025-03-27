@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nes CSS CDN -->
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+    <!-- minify -->
+<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+<!-- latest -->
+<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+<!-- core style only -->
+<link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>404: Apologies</h1>
+            </div>
+        <div class="row">
+            <h3> My portfolio is under reconstruction however you can check out these links in the meantime</h3>
+            <a href="https://github.com/nusaibah1" target="_blank">
+                <button><i class="nes-icon github is-medium"></i></button>
+            </a>
+            <a href="https://drive.google.com/file/d/1S2gMiGLnlXSU6G_hj_zcJgwVnGkKiPDk/view" target="_blank">
+                <button>    <i class="nes-icon coin is-medium"></i>
+                </button>
+            </a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/nusaibah-a-charif/" target="_blank">
+                <button><i class="nes-icon linkedin is-small"></i></button>
+            </a>
+            <a href="mailto:charifnusaibah01@gmail.com" target="_blank">
+                <button><i class="nes-icon gmail is-small"></i></button>
+            </a>
+        </div>
+        </div>
+    </div>
+ 
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    .container{
+        margin-top: 10%;
+    }
+    .row{
+        text-align: center;
+        
+
+    }
+    button{
+        background-color: transparent;
+        border: none;
+    }
+    .row h1{
+        color: #EA8987;
+    }
+    .row h3{
+        color: #81B857;
+        font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .social-links {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .social-links {
+        bottom: 10px; /* Move slightly up on smaller screens */
+        right: 10px; /* Adjust spacing for smaller screens */
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: flex-end; /* Align to the right */
+    }
+}
+
+ </style>
+</body>
+</html>
